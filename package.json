@@ -1,11 +1,7 @@
 {
-  "name": "shadcn-landing-page-template",
+  "name": "iko-cfo",
   "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
-  "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
-  },
+  "author": "Leopoldo Miranda <leomirandadev@gmail.com> (https://github.com/leoMirandaa)",
   "license": "MIT",
   "keywords": [
     "react",
@@ -58,5 +54,10 @@
     "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5",
     "vite": "^5.2.13"
+  },
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "iko-cfo"
   }
 }
