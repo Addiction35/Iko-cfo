@@ -67,7 +67,7 @@ export const Testimonials = () => {
     >
       <h2 className="text-3xl md:text-4xl font-bold">
         Discover What
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+        <span className="bg-gradient-to-b  from-red-400 to-purple-500 text-transparent bg-clip-text">
           {" "}
           Our Clients{" "}
         </span>

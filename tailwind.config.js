@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'theme-color': 'linear-gradient(to right, #3b82f6, #8b5cf6, #f43f5e)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

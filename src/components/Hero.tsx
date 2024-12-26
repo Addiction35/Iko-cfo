@@ -23,8 +23,8 @@ export const Hero = () => {
           </h2>
         </main>
 
-        <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-        Powering Your Growth One financial Solution At A Time
+        <p className="text-xl text-gray-700 dark:font-extrabold dark:text-black md:w-10/12 mx-auto lg:mx-0">
+        Powering Your Growth One financial Solution At A Time 
 
         </p>
 

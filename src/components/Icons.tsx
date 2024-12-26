@@ -28,7 +28,7 @@ export const MedalIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-14 fill-primary"
+      className="w-14 fill-theme-color"
     >
       <title>Free Icons</title>
       <g
@@ -348,7 +348,7 @@ export const LightBulbIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-12 fill-primary"
+      className="w-12 fill-theme-color"
     >
       <title>Free Icons</title>
       <g

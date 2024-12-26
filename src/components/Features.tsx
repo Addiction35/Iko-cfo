@@ -50,18 +50,18 @@ export const Features = () => {
   return (
     <section
       id="services"
-      className="container py-24 sm:py-32 space-y-8"
+      className="container py-24 sm:py-32 space-y-8 space-x-4"
     >
-      <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
+      <h2 className="text-3xl lg:text-4xl dark:text-black font-bold md:text-center">
         OutSourced{" "}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+        <span className="bg-gradient-to-b  from-red-400 to-purple-500 text-transparent bg-clip-text">
          CFO
         </span>
         {" "}Services
       </h2>
 
-      <div>
-        <p>A Fractional CFO is an experienced financial leader who provides high-level strategic and 
+      <div >
+        <p className="dark:text-black">A Fractional CFO is an experienced financial leader who provides high-level strategic and 
         operational financial guidance to businesses on a part-time or project basis. Perfect for growing companies, 
         startups, or organizations seeking expert financial management without the commitment of a full-time hire.
         </p>

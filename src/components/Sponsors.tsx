@@ -39,7 +39,7 @@ export const Sponsors = () => {
       id="sponsors"
       className="container lg:pt-24 sm:py-32"
     >
-      <h2 className="text-center text-md lg:text-xl lg:mb-9 font-bold mt-2 text-primary">
+      <h2 className="text-center text-md lg:text-xl lg:mb-9 font-extrabold mt-2 text-theme-color">
         Our Amazing Clients
       </h2>
 
