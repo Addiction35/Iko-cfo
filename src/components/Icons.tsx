@@ -425,7 +425,7 @@ export const WalletIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-12 fill-primary"
+      className="w-12 fill-black dark:fill-white"
     >
       <title>Free Icons</title>
       <g
@@ -518,7 +518,7 @@ export const ChartIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-12 fill-primary"
+      className="w-12 fill-black dark:fill-white"
     >
       <title>Free Icons</title>
       <g
@@ -591,7 +591,7 @@ export const MagnifierIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-12 fill-primary"
+      className="w-12 fill-black dark:fill-white"
     >
       <title>Free Icons</title>
       <g
