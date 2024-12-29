@@ -110,7 +110,7 @@ export const Team = () => {
   return (
     <section
       id="team"
-      className="container py-24 sm:py-32"
+      className="container p-2 mt-4"
     >
       <h2 className="text-3xl md:text-4xl font-bold">
         <span className="bg-gradient-to-b  from-red-400 to-purple-500 text-transparent bg-clip-text">

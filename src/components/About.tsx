@@ -13,9 +13,9 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="container py-24 sm:py-32"
+      className="container py-18 sm:py-28"
     >
-      <div className="bg-muted/50 border rounded-lg py-12">
+      <div className="bg-muted/50 border rounded-lg py-5">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
             src={pilot}
@@ -66,7 +66,7 @@ export const About = () => {
                       <CardDescription className="text-md mt-2">
                       Provide comprehensive financial and operational solutions that shift businesses from chaos to order, 
                       driving resource efficiencies and sustainable profitability. 
-                      We aim to demystify financial complexities and make high-level advisory services accessible and actionable for our clients.manoti
+                      We aim to demystify financial complexities and make high-level advisory services accessible and actionable for our clients.
                       </CardDescription>
                     </div>
                   </CardHeader>

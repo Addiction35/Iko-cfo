@@ -129,7 +129,7 @@ export const Navbar = () => {
             <a
               rel="noreferrer noopener"
               target="_blank"
-              className={`border hover:bg-green-600 cursor-pointer duration-200 ${buttonVariants({ variant: "secondary" })}`}
+              className={`border hover:theme-color cursor-pointer duration-200 ${buttonVariants({ variant: "secondary" })}`}
             >
               Contact Us
             </a>

@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/Funding.png";
-import image3 from "../assets/Image2.png";
-import image4 from "../assets/Image1.png";
+import image from "../assets/funding.jpg";
+import image3 from "../assets/budget.jpg";
+import image4 from "../assets/Business.jpg";
 
 interface FeatureProps {
   title: string;
@@ -50,9 +50,9 @@ export const Features = () => {
   return (
     <section
       id="services"
-      className="container py-24 sm:py-32 space-y-8 space-x-4"
+      className="container p-2 mt-4 space-y-4 space-x-2"
     >
-      <h2 className="text-3xl lg:text-4xl dark:text-black font-bold md:text-center">
+      <h2 className="text-2xl pt-2 lg:text-4xl dark:text-black font-bold ">
         OutSourced{" "}
         <span className="bg-gradient-to-b  from-red-400 to-purple-500 text-transparent bg-clip-text">
          CFO
@@ -61,15 +61,15 @@ export const Features = () => {
       </h2>
 
       <div >
-        <p className="dark:text-black">A Fractional CFO is an experienced financial leader who provides high-level strategic and 
+        <p className="dark:text-black text-muted-foreground">A Fractional CFO is an experienced financial leader who provides high-level strategic and 
         operational financial guidance to businesses on a part-time or project basis. Perfect for growing companies, 
         startups, or organizations seeking expert financial management without the commitment of a full-time hire.
         </p>
       </div>
 
-      <div className="flex flex-wrap  md:justify-center gap-4">
+      <div className="flex flex-wrap  md:justify-center gap-2">
         {featureList.map((feature: string) => (
-          <div key={feature} className="hover:scale-110 duration-200 cursor-pointer">
+          <div key={feature} className="hover:scale-95 duration-200 cursor-pointer">
             <Badge
               variant="secondary"
               className="text-sm"
@@ -82,19 +82,19 @@ export const Features = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ">
         {features.map(({ title, description, image }: FeatureProps) => (
-          <Card key={title} className="hover:shadow-2xl p-0 hover:scale-110 duration-200">
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-            </CardHeader>
-
-            <CardContent>{description}</CardContent>
-
-            <CardFooter >
-              <img
+          <Card key={title} className="hover:shadow-2xl p-0  duration-200">
+             <img
                 src={image}
                 alt="Our services"
-                className=" object-cover"
+                className="w-full rounded"
               />
+              <CardHeader>
+           
+              <CardTitle>{title}</CardTitle>
+            </CardHeader>
+            <CardFooter >
+
+              <CardContent>{description}</CardContent>
             </CardFooter>
           </Card>
         ))}

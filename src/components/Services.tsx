@@ -31,7 +31,7 @@ const serviceList: ServiceProps[] = [
 
 export const Services = () => {
   return (
-    <section id="special-services"  className="container py-24 sm:py-32">
+    <section id="special-services"  className="container p-2 mt-4">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
           <h2 className="text-3xl md:text-4xl dark:text-black font-bold">
@@ -67,9 +67,10 @@ export const Services = () => {
 
         <img
           src={cubeLeg}
-          className="w-[300px] md:w-[500px] lg:w-[600px]  object-contain"
+          className="w-full rounded object-contain"
           alt="About services"
         />
+        
       </div>
     </section>
   );

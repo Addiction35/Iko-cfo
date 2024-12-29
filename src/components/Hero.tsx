@@ -34,7 +34,7 @@ export const Hero = () => {
           <a
             rel="noreferrer noopener"
             href=""
-            className={`w-full md:w-1/3 hover:shadow-2xl duration-200 ${buttonVariants({
+            className={`w-full md:w-1/3 hover:shadow-3xl duration-200 ${buttonVariants({
               variant: "outline",
             })}`}
           >

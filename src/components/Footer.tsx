@@ -29,7 +29,7 @@ const dataFooter = [
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.linkedin.com/company/ikocfoltd"
               className="opacity-60 hover:opacity-100"
             >
              LinkedIn
@@ -49,7 +49,7 @@ const dataFooter = [
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61571233024383"
               className="opacity-60 hover:opacity-100"
             >
              Facebook
