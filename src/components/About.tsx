@@ -15,8 +15,8 @@ export const About = () => {
       id="about"
       className="container py-18 sm:py-28"
     >
-      <div className="bg-muted/50 border rounded-lg py-5">
-        <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+      <div className="bg-muted/50 border rounded-lg py-2">
+        <div className="px-3 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
             src={pilot}
             alt=""
