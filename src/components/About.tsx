@@ -59,7 +59,7 @@ export const About = () => {
                 <Card className="relative lg:w-[550px]   drop-shadow-xl shadow-black/10 dark:shadow-white/10">
                   <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
                     <div className="mt-1   bg-gradient-to-b  from-red-400 to-purple-500 p-1 rounded-2xl">
-                      <EyeOpenIcon size={10}  className="w-12 mx-auto h-12 text-black text-2xs dark:text-white"/>
+                      <EyeOpenIcon  className="w-12 mx-auto h-12 text-black text-2xs dark:text-white"/>
                     </div>
                     <div>
                       <CardTitle>Mission</CardTitle>
