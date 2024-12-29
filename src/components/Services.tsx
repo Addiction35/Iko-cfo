@@ -67,7 +67,7 @@ export const Services = () => {
 
         <img
           src={cubeLeg}
-          className="w-full rounded object-contain"
+          className="w-full lg:mt-24  rounded object-contain"
           alt="About services"
         />
         

@@ -37,11 +37,11 @@ export const Sponsors = () => {
   return (
     <section
       id="sponsors"
-      className="container lg:pt-24 sm:py-32"
+      className="container  p-2 m-4 "
     >
-      <h2 className="text-center text-white text-md dark:text-black lg:text-xl lg:mb-9 font-extrabold mt-2 text-theme-color">
-        Our Amazing Clients
-      </h2>
+      <h3 className="text-center  text-sm dark:text-black lg:text-xl lg:mb-4 font-extrabold  text-theme-color">
+       Companies We've Worked with:
+      </h3>
 
       <div className="w-full flex justify-center gap-1  md:gap-8">
         {sponsors.map(({ logo, name }: SponsorProps) => (
@@ -49,7 +49,7 @@ export const Sponsors = () => {
             key={name}
             className="flex items-center gap-2  rounded "
           >
-            <img src={logo} alt="Logos" className="h-10 w-auto  rounded hover:scale-150 duration-300" />
+            <img src={logo} alt="Logos" className="h-8 w-auto  rounded hover:scale-150 duration-300" />
           </div>
         ))}
       </div>
